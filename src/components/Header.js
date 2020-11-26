@@ -7,7 +7,7 @@ import { lightTheme, darkTheme } from "./Theme";
 
 function Header() {
     const [theme, setTheme] = useState(localStorage.getItem("theme") === null ? 'light' : localStorage.getItem("theme"));
-
+    console.log(theme);
     const themeToggler = () => {
         if (theme === 'light') {
             setTheme('dark');
@@ -19,7 +19,7 @@ function Header() {
     }
 
     return (
-        <ThemeProvider theme={localStorage.getItem("theme") === 'light' ? lightTheme : darkTheme}>
+        <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
             <GlobalStyles/>
                 <header>
                     <div className="container">

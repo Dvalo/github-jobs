@@ -7,7 +7,7 @@ export default function GetData(apiUrl) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get(`https://thingproxy.freeboard.io/fetch/${apiUrl}`)
+    axios.get(`https://cors-anywhere.herokuapp.com/${apiUrl}`)
       .then((response) => {
         if (response['data']) {
           setStats(response.data);
