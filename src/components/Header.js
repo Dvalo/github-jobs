@@ -24,7 +24,7 @@ function Header() {
                 <header>
                     <div className="container">
                         <div className="header-wrapper">
-                            <a href="/" className="web-title">devjobs</a>
+                            <a href="/github-jobs" className="web-title">devjobs</a>
                             <div className="web-theme">
                                 <i className="fas fa-sun"></i>
                                 <div className={'theme_slider ' + theme} onClick={themeToggler}>
