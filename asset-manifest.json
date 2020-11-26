@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-jobs/static/css/main.10df9f8a.chunk.css",
+    "main.js": "/github-jobs/static/js/main.3578534c.chunk.js",
+    "main.js.map": "/github-jobs/static/js/main.3578534c.chunk.js.map",
+    "runtime-main.js": "/github-jobs/static/js/runtime-main.87fead61.js",
+    "runtime-main.js.map": "/github-jobs/static/js/runtime-main.87fead61.js.map",
+    "static/js/2.ddc1286c.chunk.js": "/github-jobs/static/js/2.ddc1286c.chunk.js",
+    "static/js/2.ddc1286c.chunk.js.map": "/github-jobs/static/js/2.ddc1286c.chunk.js.map",
+    "static/js/3.5b51c14f.chunk.js": "/github-jobs/static/js/3.5b51c14f.chunk.js",
+    "static/js/3.5b51c14f.chunk.js.map": "/github-jobs/static/js/3.5b51c14f.chunk.js.map",
+    "index.html": "/github-jobs/index.html",
+    "static/css/main.10df9f8a.chunk.css.map": "/github-jobs/static/css/main.10df9f8a.chunk.css.map",
+    "static/js/2.ddc1286c.chunk.js.LICENSE.txt": "/github-jobs/static/js/2.ddc1286c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87fead61.js",
+    "static/js/2.ddc1286c.chunk.js",
+    "static/css/main.10df9f8a.chunk.css",
+    "static/js/main.3578534c.chunk.js"
+  ]
+}
